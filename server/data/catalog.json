@@ -1,0 +1,755 @@
+[
+  {
+    "id": "lap-001",
+    "sku": "SM-LAP-001",
+    "name": "Lenovo ThinkPad E14 Gen 6",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "price_usd": 649,
+    "in_stock": true,
+    "image_url": "/products/laptop-01.jpg",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "battery_hours": 12,
+      "weight_kg": 1.45,
+      "display": "14\" IPS · 300 nits",
+      "processor": "AMD Ryzen 5 7535U",
+      "screen_inches": 14
+    },
+    "ideal_for": ["programming", "vscode", "work", "business", "travel"],
+    "verified_pros": [
+      "Full-size keyboard with 1.5 mm travel and a real TrackPoint",
+      "16 GB dual-channel RAM, both slots user-replaceable",
+      "12-hour rated battery with 65 W USB-C fast charging",
+      "Two USB-C, two USB-A, HDMI and Ethernet ports"
+    ],
+    "known_tradeoffs": [
+      "300-nit display is dim outdoors",
+      "Plastic lid flexes slightly under pressure",
+      "1.45 kg is not the lightest 14-inch option"
+    ]
+  },
+  {
+    "id": "lap-002",
+    "sku": "SM-LAP-002",
+    "name": "Acer Swift Go 14 OLED",
+    "brand": "Acer",
+    "category": "laptops",
+    "price_usd": 679,
+    "in_stock": true,
+    "image_url": "/products/laptop-02.jpg",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "battery_hours": 10,
+      "weight_kg": 1.32,
+      "display": "14\" 2.8K OLED · 400 nits",
+      "processor": "Intel Core i5-13500H",
+      "screen_inches": 14
+    },
+    "ideal_for": ["programming", "vscode", "design", "work", "travel"],
+    "verified_pros": [
+      "2.8K OLED panel covers 100% sRGB",
+      "16 GB LPDDR5 memory and 512 GB PCIe Gen 4 SSD",
+      "Two Thunderbolt 4 ports and HDMI 2.1",
+      "1.32 kg aluminium chassis"
+    ],
+    "known_tradeoffs": [
+      "Fans audible under sustained compile loads",
+      "10-hour rating, roughly two hours less than the ThinkPad",
+      "OLED panel can show reflections in bright rooms"
+    ]
+  },
+  {
+    "id": "lap-003",
+    "sku": "SM-LAP-003",
+    "name": "Dell Inspiron 14 Plus",
+    "brand": "Dell",
+    "category": "laptops",
+    "price_usd": 699,
+    "in_stock": true,
+    "image_url": "/products/laptop-03.jpg",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "battery_hours": 11,
+      "weight_kg": 1.55,
+      "display": "14\" 2.2K IPS · 300 nits",
+      "processor": "Intel Core i5-13420H",
+      "screen_inches": 14
+    },
+    "ideal_for": ["programming", "vscode", "work", "business"],
+    "verified_pros": [
+      "Sharp 2.2K 16:10 work surface",
+      "16 GB RAM with a free SO-DIMM slot for upgrades",
+      "Thunderbolt 4, HDMI 1.4 and a full-size SD reader",
+      "Backlit keyboard with comfortable 1.3 mm travel"
+    ],
+    "known_tradeoffs": [
+      "1.55 kg is the heaviest 14-inch match here",
+      "300-nit panel limits outdoor use",
+      "Single-fan cooling gets warm during long builds"
+    ]
+  },
+  {
+    "id": "lap-004",
+    "sku": "SM-LAP-004",
+    "name": "HP Pavilion Aero 13",
+    "brand": "HP",
+    "category": "laptops",
+    "price_usd": 649,
+    "in_stock": true,
+    "image_url": "/products/laptop-04.jpg",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "battery_hours": 11,
+      "weight_kg": 0.97,
+      "display": "13.3\" WUXGA IPS · 400 nits",
+      "processor": "AMD Ryzen 5 7535U",
+      "screen_inches": 13.3
+    },
+    "ideal_for": ["programming", "vscode", "travel", "work", "students"],
+    "verified_pros": [
+      "Under one kilogram at 0.97 kg",
+      "Bright 400-nit display at 16:10",
+      "16 GB RAM and 512 GB SSD at this price",
+      "USB-C charging from a compact 65 W brick"
+    ],
+    "known_tradeoffs": [
+      "13.3-inch screen feels tight for side-by-side code",
+      "No Thunderbolt support on the AMD platform",
+      "Keyboard travel is shallower than the ThinkPad"
+    ]
+  },
+  {
+    "id": "lap-005",
+    "sku": "SM-LAP-005",
+    "name": "ASUS Vivobook 16",
+    "brand": "ASUS",
+    "category": "laptops",
+    "price_usd": 599,
+    "in_stock": true,
+    "image_url": "/products/laptop-05.jpg",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "battery_hours": 8,
+      "weight_kg": 1.88,
+      "display": "16\" WUXGA IPS · 300 nits",
+      "processor": "AMD Ryzen 5 7530U",
+      "screen_inches": 16
+    },
+    "ideal_for": ["programming", "vscode", "students", "work"],
+    "verified_pros": [
+      "Large 16-inch 16:10 screen with room for two editors",
+      "16 GB RAM and 512 GB SSD for $599",
+      "Number pad and a fingerprint reader",
+      "Full-size HDMI and three USB-A ports"
+    ],
+    "known_tradeoffs": [
+      "8-hour rated battery is the weakest in this set",
+      "1.88 kg is noticeable in a backpack",
+      "300-nit display and a plastic deck"
+    ]
+  },
+  {
+    "id": "lap-006",
+    "sku": "SM-LAP-006",
+    "name": "Apple MacBook Air M1 — Certified Refurbished",
+    "brand": "Apple",
+    "category": "laptops",
+    "price_usd": 699,
+    "in_stock": true,
+    "image_url": "/products/laptop-06.jpg",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "battery_hours": 18,
+      "weight_kg": 1.29,
+      "display": "13.3\" Retina · 400 nits",
+      "processor": "Apple M1",
+      "screen_inches": 13.3
+    },
+    "ideal_for": ["students", "writing", "travel", "studying", "work"],
+    "verified_pros": [
+      "18-hour rated battery and fanless operation",
+      "Bright 400-nit Retina display",
+      "Excellent trackpad and aluminium build",
+      "Certified refurbished with a new battery and shell"
+    ],
+    "known_tradeoffs": [
+      "8 GB of soldered memory is below the 16 GB brief",
+      "256 GB SSD is small for local build caches",
+      "Only two USB-C ports, no HDMI",
+      "Refurbished stock, not a new retail unit"
+    ]
+  },
+  {
+    "id": "lap-007",
+    "sku": "SM-LAP-007",
+    "name": "Lenovo IdeaPad Slim 5",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "price_usd": 549,
+    "in_stock": true,
+    "image_url": "/products/laptop-07.jpg",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "battery_hours": 9,
+      "weight_kg": 1.62,
+      "display": "15.6\" FHD IPS · 300 nits",
+      "processor": "AMD Ryzen 5 7530U",
+      "screen_inches": 15.6
+    },
+    "ideal_for": ["programming", "vscode", "students", "work", "home"],
+    "verified_pros": [
+      "16 GB RAM and 512 GB SSD at $549",
+      "Comfortable keyboard with a number pad",
+      "USB-C charging and HDMI",
+      "Quiet under everyday load"
+    ],
+    "known_tradeoffs": [
+      "9-hour battery is average",
+      "1.62 kg and a plastic chassis",
+      "300-nit display is not comfortable outdoors"
+    ]
+  },
+  {
+    "id": "lap-008",
+    "sku": "SM-LAP-008",
+    "name": "Acer Aspire 14",
+    "brand": "Acer",
+    "category": "laptops",
+    "price_usd": 479,
+    "in_stock": true,
+    "image_url": "/products/laptop-08.jpg",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "battery_hours": 7,
+      "weight_kg": 1.6,
+      "display": "14\" FHD IPS · 250 nits",
+      "processor": "Intel Core i5-1235U",
+      "screen_inches": 14
+    },
+    "ideal_for": ["students", "home", "writing", "browsing"],
+    "verified_pros": [
+      "512 GB SSD at a $479 price",
+      "Light enough for daily commuting at 1.6 kg",
+      "Windows 11 preinstalled",
+      "Serviceable bottom panel for storage upgrades"
+    ],
+    "known_tradeoffs": [
+      "8 GB RAM is below the 16 GB brief",
+      "250-nit display is dim indoors near windows",
+      "7-hour battery and a slow 45 W charger"
+    ]
+  },
+  {
+    "id": "hp-001",
+    "sku": "SM-HP-001",
+    "name": "Sony WH-CH720N",
+    "brand": "Sony",
+    "category": "headphones",
+    "price_usd": 98,
+    "in_stock": true,
+    "image_url": "/products/headphones-01.jpg",
+    "specs": {
+      "battery_hours": 35,
+      "weight_kg": 0.192,
+      "display": "Over-ear · 30 mm driver",
+      "anc_level": 4.2,
+      "comfort_rating": 4.4,
+      "wireless": true
+    },
+    "ideal_for": ["studying", "commuting", "travel", "calls", "work"],
+    "verified_pros": [
+      "35-hour battery with 3-minute quick charge",
+      "192 g is the lightest ANC model in the catalog",
+      "Multipoint pairing for laptop and phone",
+      "Sony app with a five-band EQ"
+    ],
+    "known_tradeoffs": [
+      "Plastic headband creaks when adjusted",
+      "No hard carrying case included",
+      "ANC is a step below the 1000X series"
+    ]
+  },
+  {
+    "id": "hp-002",
+    "sku": "SM-HP-002",
+    "name": "Anker Soundcore Space One",
+    "brand": "Anker",
+    "category": "headphones",
+    "price_usd": 99,
+    "in_stock": true,
+    "image_url": "/products/headphones-02.jpg",
+    "specs": {
+      "battery_hours": 40,
+      "weight_kg": 0.263,
+      "display": "Over-ear · 40 mm driver",
+      "anc_level": 4.4,
+      "comfort_rating": 4.3,
+      "wireless": true
+    },
+    "ideal_for": ["studying", "commuting", "travel", "work", "calls"],
+    "verified_pros": [
+      "40-hour battery with ANC enabled",
+      "Adaptive noise cancelling rated 4.4 out of 5",
+      "LDAC support for higher-bitrate audio",
+      "Memory-foam earcups and a folding hinge"
+    ],
+    "known_tradeoffs": [
+      "Clamping force is firmer than the Sony",
+      "263 g is heavier on long study sessions",
+      "Carrying case is bulky"
+    ]
+  },
+  {
+    "id": "hp-003",
+    "sku": "SM-HP-003",
+    "name": "JBL Tune 770NC",
+    "brand": "JBL",
+    "category": "headphones",
+    "price_usd": 89,
+    "in_stock": true,
+    "image_url": "/products/headphones-03.jpg",
+    "specs": {
+      "battery_hours": 44,
+      "weight_kg": 0.232,
+      "display": "Over-ear · 40 mm driver",
+      "anc_level": 3.8,
+      "comfort_rating": 4.1,
+      "wireless": true
+    },
+    "ideal_for": ["studying", "commuting", "travel", "gym"],
+    "verified_pros": [
+      "44-hour battery life",
+      "Folds flat for a backpack",
+      "Multipoint Bluetooth and a 3.5 mm cable",
+      "JBL app with EQ presets"
+    ],
+    "known_tradeoffs": [
+      "ANC is weaker on low-frequency rumble",
+      "Bass-heavy tuning out of the box",
+      "Ear pads warm up after two hours"
+    ]
+  },
+  {
+    "id": "hp-004",
+    "sku": "SM-HP-004",
+    "name": "Sennheiser Accentum",
+    "brand": "Sennheiser",
+    "category": "headphones",
+    "price_usd": 119,
+    "in_stock": true,
+    "image_url": "/products/headphones-04.jpg",
+    "specs": {
+      "battery_hours": 50,
+      "weight_kg": 0.222,
+      "display": "Over-ear · 37 mm driver",
+      "anc_level": 4.3,
+      "comfort_rating": 4.5,
+      "wireless": true
+    },
+    "ideal_for": ["studying", "commuting", "travel", "work"],
+    "verified_pros": [
+      "50-hour battery life",
+      "Comfort rated 4.5 out of 5 with soft earcups",
+      "Neutral tuning with a clean midrange",
+      "USB-C and 3.5 mm wired options"
+    ],
+    "known_tradeoffs": [
+      "No carrying case in the box",
+      "Plastic headband feels less premium",
+      "ANC is good, not class-leading"
+    ]
+  },
+  {
+    "id": "hp-005",
+    "sku": "SM-HP-005",
+    "name": "Audio-Technica ATH-S220BT",
+    "brand": "Audio-Technica",
+    "category": "headphones",
+    "price_usd": 69,
+    "in_stock": true,
+    "image_url": "/products/headphones-05.jpg",
+    "specs": {
+      "battery_hours": 60,
+      "weight_kg": 0.205,
+      "display": "On-ear · 40 mm driver",
+      "comfort_rating": 3.9,
+      "wireless": true
+    },
+    "ideal_for": ["commuting", "calls", "travel", "gym"],
+    "verified_pros": [
+      "60-hour battery life",
+      "Low 205 g weight",
+      "3.5 mm cable included for wired listening",
+      "Fast charging: 10 minutes for 3.5 hours"
+    ],
+    "known_tradeoffs": [
+      "No active noise cancelling",
+      "On-ear fit clamps after long sessions",
+      "Leaks sound at higher volumes"
+    ]
+  },
+  {
+    "id": "hp-006",
+    "sku": "SM-HP-006",
+    "name": "Anker Soundcore Life Q30",
+    "brand": "Anker",
+    "category": "headphones",
+    "price_usd": 79,
+    "in_stock": true,
+    "image_url": "/products/headphones-06.jpg",
+    "specs": {
+      "battery_hours": 40,
+      "weight_kg": 0.245,
+      "display": "Over-ear · 40 mm driver",
+      "anc_level": 4.0,
+      "comfort_rating": 4.2,
+      "wireless": true
+    },
+    "ideal_for": ["studying", "commuting", "travel", "work"],
+    "verified_pros": [
+      "40-hour battery with ANC on",
+      "Four-mic call array",
+      "Custom EQ in the Soundcore app",
+      "Folds into a compact case"
+    ],
+    "known_tradeoffs": [
+      "Hinge develops a light squeak over time",
+      "245 g with fairly firm earcups",
+      "ANC struggles with voices nearby"
+    ]
+  },
+  {
+    "id": "hp-007",
+    "sku": "SM-HP-007",
+    "name": "Sony WH-1000XM4 — Open Box",
+    "brand": "Sony",
+    "category": "headphones",
+    "price_usd": 199,
+    "in_stock": true,
+    "image_url": "/products/headphones-07.jpg",
+    "specs": {
+      "battery_hours": 30,
+      "weight_kg": 0.254,
+      "display": "Over-ear · 40 mm driver",
+      "anc_level": 4.8,
+      "comfort_rating": 4.7,
+      "wireless": true
+    },
+    "ideal_for": ["studying", "commuting", "travel", "work", "calls"],
+    "verified_pros": [
+      "Class-leading noise cancelling rated 4.8 out of 5",
+      "Comfort rated 4.7 out of 5 for long sessions",
+      "Multipoint pairing and speak-to-chat",
+      "30-hour battery with a hard case included"
+    ],
+    "known_tradeoffs": [
+      "Open-box unit may show light wear",
+      "Costs $99 over the $100 brief",
+      "30-hour battery trails cheaper models"
+    ]
+  },
+  {
+    "id": "hp-008",
+    "sku": "SM-HP-008",
+    "name": "Edifier W820NB",
+    "brand": "Edifier",
+    "category": "headphones",
+    "price_usd": 59,
+    "in_stock": true,
+    "image_url": "/products/headphones-08.jpg",
+    "specs": {
+      "battery_hours": 49,
+      "weight_kg": 0.22,
+      "display": "Over-ear · 40 mm driver",
+      "anc_level": 3.6,
+      "comfort_rating": 3.9,
+      "wireless": true
+    },
+    "ideal_for": ["studying", "commuting", "budget", "travel"],
+    "verified_pros": [
+      "49-hour battery in ANC mode",
+      "220 g and a folding frame",
+      "Low-latency game mode",
+      "USB-C charging"
+    ],
+    "known_tradeoffs": [
+      "Basic ANC that mostly dulls low hum",
+      "Tight clamp and thin ear pads",
+      "No app EQ on this model"
+    ]
+  },
+  {
+    "id": "ph-001",
+    "sku": "SM-PH-001",
+    "name": "Samsung Galaxy A15 5G",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price_usd": 199,
+    "in_stock": true,
+    "image_url": "/products/phones-01.jpg",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "battery_hours": 22,
+      "weight_kg": 0.2,
+      "display": "6.5\" Super AMOLED · 90 Hz",
+      "processor": "MediaTek Dimensity 6100+",
+      "camera_mp": 50,
+      "screen_inches": 6.5,
+      "charging_watts": 25
+    },
+    "ideal_for": ["parents", "everyday", "browsing", "calls", "travel"],
+    "verified_pros": [
+      "22-hour rated battery life",
+      "6.5-inch Super AMOLED screen",
+      "50 MP main camera",
+      "Four generations of OS updates promised"
+    ],
+    "known_tradeoffs": [
+      "4 GB RAM is tight with many apps open",
+      "25 W charging is slow for the battery size",
+      "Plastic back scratches easily"
+    ]
+  },
+  {
+    "id": "ph-002",
+    "sku": "SM-PH-002",
+    "name": "Motorola Moto G Power 5G",
+    "brand": "Motorola",
+    "category": "smartphones",
+    "price_usd": 249,
+    "in_stock": true,
+    "image_url": "/products/phones-02.jpg",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "battery_hours": 26,
+      "weight_kg": 0.201,
+      "display": "6.7\" LCD · 120 Hz",
+      "processor": "MediaTek Dimensity 930",
+      "camera_mp": 50,
+      "screen_inches": 6.7,
+      "charging_watts": 30
+    },
+    "ideal_for": ["parents", "everyday", "battery", "travel", "calls"],
+    "verified_pros": [
+      "26-hour rated battery, the longest here",
+      "8 GB RAM for smoother multitasking",
+      "6.7-inch 120 Hz display with stereo speakers",
+      "50 MP main camera with OIS"
+    ],
+    "known_tradeoffs": [
+      "LCD panel, not OLED",
+      "Low-light photos are soft",
+      "30 W charger is not included in the box"
+    ]
+  },
+  {
+    "id": "ph-003",
+    "sku": "SM-PH-003",
+    "name": "Samsung Galaxy A25 5G",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price_usd": 249,
+    "in_stock": true,
+    "image_url": "/products/phones-03.jpg",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "battery_hours": 18,
+      "weight_kg": 0.197,
+      "display": "6.5\" Super AMOLED · 120 Hz",
+      "processor": "Exynos 1280",
+      "camera_mp": 50,
+      "screen_inches": 6.5,
+      "charging_watts": 25
+    },
+    "ideal_for": ["parents", "everyday", "photography", "browsing"],
+    "verified_pros": [
+      "Bright 120 Hz Super AMOLED screen",
+      "50 MP camera with optical stabilisation",
+      "Four generations of OS updates",
+      "MicroSD expansion up to 1 TB"
+    ],
+    "known_tradeoffs": [
+      "18-hour battery is average",
+      "Plastic frame feels basic",
+      "Exynos chip runs warm under load"
+    ]
+  },
+  {
+    "id": "ph-004",
+    "sku": "SM-PH-004",
+    "name": "Google Pixel 7a — Refurbished",
+    "brand": "Google",
+    "category": "smartphones",
+    "price_usd": 249,
+    "in_stock": true,
+    "image_url": "/products/phones-04.jpg",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "battery_hours": 18,
+      "weight_kg": 0.193,
+      "display": "6.1\" OLED · 90 Hz",
+      "processor": "Google Tensor G2",
+      "camera_mp": 64,
+      "screen_inches": 6.1,
+      "charging_watts": 18
+    },
+    "ideal_for": ["photography", "parents", "everyday", "travel"],
+    "verified_pros": [
+      "64 MP main camera with strong computational photos",
+      "Clean Android with seven years of security updates",
+      "8 GB RAM and wireless charging",
+      "Compact 6.1-inch OLED display"
+    ],
+    "known_tradeoffs": [
+      "18-hour battery is shorter than the Moto",
+      "Refurbished unit, not new retail stock",
+      "18 W wired charging is slow"
+    ]
+  },
+  {
+    "id": "ph-005",
+    "sku": "SM-PH-005",
+    "name": "Nokia G42 5G",
+    "brand": "Nokia",
+    "category": "smartphones",
+    "price_usd": 179,
+    "in_stock": true,
+    "image_url": "/products/phones-05.jpg",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "battery_hours": 20,
+      "weight_kg": 0.193,
+      "display": "6.56\" LCD · 90 Hz",
+      "processor": "Snapdragon 480+",
+      "camera_mp": 50,
+      "screen_inches": 6.56,
+      "charging_watts": 20
+    },
+    "ideal_for": ["parents", "everyday", "budget", "battery", "repair"],
+    "verified_pros": [
+      "User-replaceable battery and screen with iFixit guides",
+      "20-hour rated battery",
+      "50 MP main camera",
+      "Three years of OS updates"
+    ],
+    "known_tradeoffs": [
+      "LCD display is dim outdoors",
+      "20 W charging is slow",
+      "Snapdragon 480+ struggles with heavy games"
+    ]
+  },
+  {
+    "id": "ph-006",
+    "sku": "SM-PH-006",
+    "name": "Motorola Moto G Play (2024)",
+    "brand": "Motorola",
+    "category": "smartphones",
+    "price_usd": 149,
+    "in_stock": true,
+    "image_url": "/products/phones-06.jpg",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "battery_hours": 22,
+      "weight_kg": 0.185,
+      "display": "6.5\" LCD · 90 Hz",
+      "processor": "Snapdragon 680",
+      "camera_mp": 50,
+      "screen_inches": 6.5,
+      "charging_watts": 15
+    },
+    "ideal_for": ["parents", "budget", "everyday", "calls"],
+    "verified_pros": [
+      "22-hour rated battery",
+      "50 MP main camera",
+      "Clean Android with few preinstalled apps",
+      "Low $149 price"
+    ],
+    "known_tradeoffs": [
+      "4 GB RAM limits multitasking",
+      "64 GB storage fills quickly",
+      "LCD screen and slow 15 W charging"
+    ]
+  },
+  {
+    "id": "ph-007",
+    "sku": "SM-PH-007",
+    "name": "Samsung Galaxy A35 5G",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price_usd": 299,
+    "in_stock": true,
+    "image_url": "/products/phones-07.jpg",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "battery_hours": 19,
+      "weight_kg": 0.209,
+      "display": "6.6\" Super AMOLED · 120 Hz",
+      "processor": "Exynos 1380",
+      "camera_mp": 50,
+      "screen_inches": 6.6,
+      "charging_watts": 25
+    },
+    "ideal_for": ["parents", "photography", "everyday", "travel"],
+    "verified_pros": [
+      "50 MP OIS camera with solid low-light processing",
+      "Bright 120 Hz Super AMOLED display",
+      "8 GB RAM and 128 GB storage",
+      "Four generations of OS updates"
+    ],
+    "known_tradeoffs": [
+      "Costs $49 over the $250 brief",
+      "19-hour battery trails the Moto",
+      "25 W charging with no adapter included"
+    ]
+  },
+  {
+    "id": "ph-008",
+    "sku": "SM-PH-008",
+    "name": "Apple iPhone SE 3rd Gen — Refurbished",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price_usd": 249,
+    "in_stock": true,
+    "image_url": "/products/phones-08.jpg",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "battery_hours": 12,
+      "weight_kg": 0.144,
+      "display": "4.7\" Retina LCD · 60 Hz",
+      "processor": "Apple A15 Bionic",
+      "camera_mp": 12,
+      "screen_inches": 4.7,
+      "charging_watts": 20
+    },
+    "ideal_for": ["parents", "compact", "ios", "calls", "everyday"],
+    "verified_pros": [
+      "A15 Bionic is fast for the price",
+      "Very compact 4.7-inch body at 144 g",
+      "Long iOS update support",
+      "Touch ID home button is familiar for parents"
+    ],
+    "known_tradeoffs": [
+      "12-hour battery is the shortest here",
+      "12 MP camera is below the 48 MP brief",
+      "64 GB storage and an older design",
+      "Refurbished stock, not new"
+    ]
+  }
+]
