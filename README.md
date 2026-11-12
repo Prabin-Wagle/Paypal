@@ -271,6 +271,18 @@ Do not set `PAYPAL_ENV=live` for the demo unless you intend real charges.
 
 ## Deploy
 
+### Render (client + API, recommended)
+
+Create a **Web Service** from this repo. Use these settings if you are not applying `render.yaml`:
+
+| Setting | Value |
+| --- | --- |
+| Build | `npm run install:all && npm run build` |
+| Start | `npm start` |
+| `NPM_CONFIG_PRODUCTION` | `false` (installs Vite and React types needed to build) |
+
+Also set `PAYPAL_CLIENT_ID`, `PAYPAL_CLIENT_SECRET`, `PAYPAL_ENV=sandbox`, and `CHANNEL3_API_KEY` in the Render dashboard. Leave `PORT` unset.
+
 ### Netlify (static client)
 
 `netlify.toml` builds the Vite app and publishes `client/dist`. SPA routes (`/app`, `/discover`, `/cart`) rewrite to `index.html` via `[[redirects]]` and `client/public/_redirects`.
