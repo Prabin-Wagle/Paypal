@@ -277,9 +277,9 @@ Create a **Web Service** from this repo. Use these settings if you are not apply
 
 | Setting | Value |
 | --- | --- |
-| Build | `npm run install:all && npm run build` |
+| Build | `npm run build` |
 | Start | `npm start` |
-| `NPM_CONFIG_PRODUCTION` | `false` (installs Vite and React types needed to build) |
+| `NPM_CONFIG_PRODUCTION` | `false` |
 
 Also set `PAYPAL_CLIENT_ID`, `PAYPAL_CLIENT_SECRET`, `PAYPAL_ENV=sandbox`, and `CHANNEL3_API_KEY` in the Render dashboard. Leave `PORT` unset.
 
