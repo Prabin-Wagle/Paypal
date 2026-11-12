@@ -66,7 +66,7 @@ npm run build
 npm start
 ```
 
-If `client/dist` exists, Express serves it, so the built app is at [http://localhost:8787](http://localhost:8787).
+The build installs the client and server dependencies from their lockfiles, type-checks both projects, and bundles the client. If `client/dist` exists, Express serves it, so the built app is at [http://localhost:8787](http://localhost:8787).
 
 `server/.env` is gitignored. Never commit it.
 
